@@ -39,7 +39,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-[19px] md:text-[22px] text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed tracking-tight"
         >
-          Metode belajar interaktif dengan tutor profesional. Kami telah membantu banyak siswa masuk meraih impian nya.
+          Metode belajar interaktif dengan tutor profesional. Kami telah membantu banyak siswa meraih impian nya.
         </motion.p>
 
         <motion.div
