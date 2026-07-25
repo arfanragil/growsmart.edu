@@ -21,8 +21,9 @@ export function Navbar() {
 
   const navLinks = [
     { name: "Beranda", href: "/" },
-    { name: "Fasilitas", href: "#about" },
     { name: "Filosofi Kami", href: "#philosophy" },
+    { name: "Pengajar", href: "#teacher" },
+    { name: "Fasilitas", href: "#about" },
     { name: "Testimoni", href: "#testimonials" },
     { name: "Pendaftaran", href: "#register" },
   ];
@@ -49,7 +50,7 @@ export function Navbar() {
               priority
             />
           </div>
-          <span className="font-bold text-xl tracking-tight hidden sm:block">Grow Smart.edu</span>
+          <span className="font-bold text-xl tracking-tight">Grow Smart.edu</span>
         </Link>
 
         {/* Desktop Nav */}
