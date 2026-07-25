@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: "A world-class EdTech platform empowering learners and educators to achieve more.",
   openGraph: {
     title: "Grow Smart",
-    description: "Premium SaaS-quality educational company profile.",
+    description: "Premium educational company profile.",
     type: "website",
   },
 };
