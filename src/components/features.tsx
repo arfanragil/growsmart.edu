@@ -22,23 +22,23 @@ const features = [
     icon: <Video className="w-6 h-6" />,
     className: "md:col-span-1",
   },
-  {
-    title: "Tryout Berkala",
-    description: "Simulasi ujian berbasis CBT yang mirip dengan ujian aslinya.",
-    icon: <Settings className="w-6 h-6" />,
-    className: "md:col-span-1",
-  },
-  {
-    title: "Analisis Perkembangan",
-    description: "Pantau nilai dan identifikasi kelemahanmu secara otomatis melalui dashboard pintar kami.",
-    icon: <BarChart className="w-6 h-6" />,
-    className: "md:col-span-2 bg-gradient-to-bl from-indigo-500/10 to-transparent",
-  },
+  // {
+  //   title: "Tryout Berkala",
+  //   description: "Simulasi ujian berbasis CBT yang mirip dengan ujian aslinya.",
+  //   icon: <Settings className="w-6 h-6" />,
+  //   className: "md:col-span-1",
+  // },
+  // {
+  //   title: "Analisis Perkembangan",
+  //   description: "Pantau nilai dan identifikasi kelemahanmu secara otomatis melalui dashboard pintar kami.",
+  //   icon: <BarChart className="w-6 h-6" />,
+  //   className: "md:col-span-2 bg-gradient-to-bl from-indigo-500/10 to-transparent",
+  // },
   {
     title: "Konsultasi PR",
     description: "Tanya PR dan dapatkan pembahasan lengkap.",
     icon: <Trophy className="w-6 h-6" />,
-    className: "md:col-span-1",
+    className: "md:col-span-2 bg-gradient-to-bl from-indigo-500/10 to-transparent",
   },
 ];
 

@@ -5,22 +5,22 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    name: "Budi Santoso",
-    role: "Mahasiswa UI 2025",
-    content: "Berkat Grow Smart, saya bisa paham konsep Fisika yang dulunya bikin pusing. Tutornya asik dan pembahasannya super jelas!",
-    avatar: "BS"
+    name: "dr. Aufanissa Luzida Azmi Aurelia",
+    role: "Dokter Umum (Internship)",
+    content: "Waktu SMA aku les sama mba Nissa, dan menurutku belajar sama mba Nissa itu seru banget.. mba Nissa ga cuma ngajarin cara ngerjain soal, tapi selalu mulai dari teori dan pemahaman konsep dulu. Jadi pas lanjut ke latihan soal rasanya jauh lebih mudah dipahami. Beliau juga sabar, enak diajak diskusi dan ngobrol. Suasana belajarnya santai tapi tetap fokus. Alhamdulillah berkat bimbingan mba Nissa, aku jadi lebih percaya diri pas ujian untuk masuk fakultas kedokteran, dan ilmunya masih kepake sampe S1 dan koas.",
+    avatar: "AF"
   },
   {
-    name: "Siti Aminah",
-    role: "Orang Tua Siswa",
-    content: "Anak saya jadi lebih rajin belajar sejak ikut bimbel di sini. Laporan perkembangannya sangat membantu saya memantau belajarnya.",
-    avatar: "SA"
+    name: "Ervina Azzahra",
+    role: "Pegawai Kejaksaan",
+    content: "Dulu aku les privat sama Bu Nisa saat kelas 3 SMP dan saat kelas 2 SMA. Menurutku, Bu Nisa itu orangnya sabar banget. Kalau ada materi yang belum paham, beliau nggak pernah langsung kasih jawaban, tapi ngajak aku mikir dulu sampai akhirnya ngerti sendiri. Yang paling aku ingat waktu kelas 2 SMA, sebelum ujian Fisika aku lumayan khawatir. Setelah beberapa kali belajar dan latihan soal bareng Bu Nisa, ternyata pas ujian aku dapat nilai 90. Senang banget!",
+    avatar: "EA"
   },
   {
-    name: "Dimas Pratama",
-    role: "Mahasiswa ITB 2024",
-    content: "Tryout-nya bener-bener mirip sama UTBK asli! Jadi pas hari H ujian udah nggak kaget lagi sama tipe soalnya. Recommended banget.",
-    avatar: "DP"
+    name: "Ishma Sajida",
+    role: "Mahasiswa Aktuaria IPB University",
+    content: "Halo semuanya… saya Ishma Sajida dari mahasiswa S1 Sains Data, Matematika dan Informatika Program Studi Aktuaria IPB University. Saat SMA, saya aktif belajar mengenai fisika dan karya tulis ilmiah bersama Bu Nissa, serta mengikuti banyak lomba tingkat provinsi sampai nasional. Karena itu, saya berhasil masuk IPB University melalui jalur prestasi Golden Ticket karya tulis ilmiah. Teman-teman langsung belajar sama Bu Nissa yaaaa!",
+    avatar: "IS"
   }
 ];
 
@@ -28,7 +28,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="py-24 overflow-hidden relative">
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-      
+
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <motion.h2
@@ -63,7 +63,7 @@ export function Testimonials() {
                 </div>
                 <p className="text-[17px] font-medium leading-relaxed tracking-tight">&quot;{testimonial.content}&quot;</p>
               </div>
-              
+
               <div className="flex items-center gap-4">
                 <Avatar className="h-12 w-12 border border-border shadow-sm">
                   <AvatarFallback className="bg-primary/10 text-primary font-bold">

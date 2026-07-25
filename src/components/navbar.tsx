@@ -94,11 +94,6 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <div className="h-px bg-border my-2" />
-              <Link href="#login" className="text-[17px] font-medium py-2">
-                Masuk
-              </Link>
-              <Button className="w-full mt-2 rounded-full font-medium">Daftar Sekarang</Button>
             </div>
           </motion.div>
         )}

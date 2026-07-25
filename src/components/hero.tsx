@@ -48,17 +48,17 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-5"
         >
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="rounded-full px-8 h-14 text-[17px] font-medium shadow-xl shadow-primary/25 hover:shadow-primary/40 transition-all w-full sm:w-auto group"
-            onClick={() => window.open('https://wa.me/6285725824281?text=Hello+Smarter%2C+aku+mau+info+lebih+lanjut+tentang+GrowSmart.edu+done+%3A%29&utm_source=chatgpt.com', '_blank')}
+            onClick={() => window.open('https://wa.me/6285725824281?text=Hello+Smarter%2C+aku+mau+info+lebih+lanjut+tentang+GrowSmart.edu+dong.+%3A%29&utm_source=chatgpt.com', '_blank')}
           >
             Info Lengkap
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button 
-            size="lg" 
-            variant="outline" 
+          <Button
+            size="lg"
+            variant="outline"
             className="rounded-full px-8 h-14 text-[17px] font-medium glass-card hover:bg-white/60 dark:hover:bg-zinc-800/60 w-full sm:w-auto"
             onClick={() => window.open('https://wa.me/6285725824281?text=Halo+Smarter%2C+aku+tertarik+untuk+coba+gratis+program+belajar+di+GrowSmart.edu.+Bisa+info+lebih+lanjut%3F+%F0%9F%98%8A', '_blank')}
           >
